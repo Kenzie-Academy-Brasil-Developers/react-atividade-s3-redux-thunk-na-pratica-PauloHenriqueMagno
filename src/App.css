@@ -1,0 +1,66 @@
+.chat {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.user img{
+  width: 80px;
+  border-radius: 100%;
+}
+.user h2{
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.comments{
+  margin: 0;
+  padding: 0 25px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+.comments li{
+  list-style: none;
+  background-color: rgb(101, 124, 255);
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 5px 8px;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin: 5px 15px 10px;
+}
+.form input{
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgb(180, 180, 180);
+  padding: 5px;
+  cursor: text;
+}
+.form input:focus{
+  outline: none;
+}
+.form button{
+  background-color: rgb(40, 40, 228);
+  border-radius: 0 5px 5px 0;
+  border: 2px solid rgb(30, 30, 158);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.form button:hover{
+  filter: brightness(70%)
+}
+.form button:active{
+  filter: brightness(130%)
+}
